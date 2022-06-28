@@ -1,6 +1,9 @@
 def runner_app():
     """
     Run main application
+
+    TESLA = $57,440
+
     """
     running = True
 
@@ -24,6 +27,3 @@ def runner_app():
             else:
                 running = False
                 go_back = True
-"""
-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
-"""
