@@ -1,3 +1,4 @@
 pipenv
+tabulate
 fiscalyear
 yfinance
