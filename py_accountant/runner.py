@@ -1,12 +1,11 @@
 from py_accountant.console_ui.main_menu import select_main_menu
-from py_accountant.csv_utils import get_csv_file_data
+from py_accountant.csv_utils import get_account_data
 
-LIABILITIES = './data/Liabilities.csv'
-EXPENSES = './data/Liabilities.csv'
+
 def runner_app():
     """
     Run main application
     TESLA = $57,440
     """
-    get_csv_file_data(EXPENSES)
+    get_account_data()
     select_main_menu()
